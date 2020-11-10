@@ -1,7 +1,7 @@
 #In this program there are two functions that help you to calculate the inverse of a matrix
 #These functions called makeCacheMatrix and cacheSolve
 
-## The first one, creates a special "matrix" object that can cache its inverse
+## The first one, creates a object of type matrix  that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) { 
     inver <- NULL                              
@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
    }
 
 
-## And the second one, computes the inverse of the special "matrix" returned by makeCacheMatrix above.  
+## And the second one, computes the inverse of object type matrix returned by makeCacheMatrix above.  
   
   cacheSolve <- function(x, ...) {
    
